@@ -1,0 +1,33 @@
+{
+  "files": {
+    "static/js/0.chunk.js": "/wp-content/themes/healthcare-transformers/static/js/0.chunk.js",
+    "static/js/0.chunk.js.map": "/wp-content/themes/healthcare-transformers/static/js/0.chunk.js.map",
+    "main.css": "/wp-content/themes/healthcare-transformers/static/css/main.chunk.css",
+    "main.js": "/wp-content/themes/healthcare-transformers/static/js/main.chunk.js",
+    "main.css.map": "/wp-content/themes/healthcare-transformers/static/css/main.chunk.css.map",
+    "main.js.map": "/wp-content/themes/healthcare-transformers/static/js/main.chunk.js.map",
+    "runtime-main.js": "/wp-content/themes/healthcare-transformers/static/js/bundle.js",
+    "runtime-main.js.map": "/wp-content/themes/healthcare-transformers/static/js/bundle.js.map",
+    "index.php": "/wp-content/themes/healthcare-transformers/index.php",
+    "static/media/1.svg": "/wp-content/themes/healthcare-transformers/static/media/1.1c422ade.svg",
+    "static/media/2.svg": "/wp-content/themes/healthcare-transformers/static/media/2.d932462d.svg",
+    "static/media/3.svg": "/wp-content/themes/healthcare-transformers/static/media/3.813847b7.svg",
+    "static/media/App.scss": "/wp-content/themes/healthcare-transformers/static/media/plus.63d0fd6c.svg",
+    "static/media/Header.scss": "/wp-content/themes/healthcare-transformers/static/media/menu-hamburger.bed5126e.svg",
+    "static/media/art-main-blank.png": "/wp-content/themes/healthcare-transformers/static/media/art-main-blank.91476733.png",
+    "static/media/Headline.scss": "/wp-content/themes/healthcare-transformers/static/media/down.c50aad56.svg",
+    "static/media/Article.scss": "/wp-content/themes/healthcare-transformers/static/media/expernal-link.9be5987b.svg",
+    "static/media/facebook.svg": "/wp-content/themes/healthcare-transformers/static/media/facebook.977afd66.svg",
+    "static/media/link.svg": "/wp-content/themes/healthcare-transformers/static/media/link.10f1db2b.svg",
+    "static/media/linkedin.svg": "/wp-content/themes/healthcare-transformers/static/media/linkedin.f5035afa.svg",
+    "static/media/Footer.scss": "/wp-content/themes/healthcare-transformers/static/media/next.f193a376.svg",
+    "static/media/PastEvents.scss": "/wp-content/themes/healthcare-transformers/static/media/play.842d43cb.svg",
+    "static/media/twitter.svg": "/wp-content/themes/healthcare-transformers/static/media/twitter.59b9e758.svg"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/js/0.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}
