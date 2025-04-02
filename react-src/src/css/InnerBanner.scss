@@ -1,0 +1,43 @@
+@import "Colors.scss";
+
+.inner-banner {
+  padding: 72px 0 72px 0;
+  background: linear-gradient(125.75deg, #BDE3FF -40.48%, #FFFFFF 43.74%);
+  border-bottom: solid 1px #DBD6D1;
+ .text {
+  
+ h1 {
+  margin-bottom: 24px;
+}
+p {
+  font-size: 26px;
+  color: #544F4F;
+  line-height: 160%;
+}
+}}
+@media (max-width: 767px) {
+.inlinebanner {
+  width: 100vw; margin: 40px 0 40px -20px!important; padding: 42px 0;
+}
+.inlinebanner .inlinebanner-text {
+  text-align: center;
+}
+.inner-banner { 
+  padding: 32px 0 32px 0; border-bottom: solid 2px #DBD6D1;
+}
+.inner-banner .text p {
+  font-size: 20px; line-height: 160%;
+}
+.order-first {
+  .filter-Left {
+    padding-top: 24px; padding-bottom: 40px;
+  }
+}
+}
+
+
+
+
+
+
+

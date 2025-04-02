@@ -1,0 +1,24 @@
+@import "Colors.scss";
+
+.filter-Left {
+  h4 {
+    margin-bottom: 44px;
+  }
+}
+.filter-block {
+  margin-bottom: 30px;
+  h6 {
+    font-size: 16px; line-height: 21px; color: #544F4F; font-weight: 400; margin-bottom: 8px;
+  }
+  .filter-row {
+    padding-top: 15px;
+  }
+}
+@media (max-width: 767px) { 
+  .filter-Left h4 {
+    margin-bottom: 12px;
+  }
+  .text.p-0 {
+    margin-bottom: 40px;
+  }
+ }

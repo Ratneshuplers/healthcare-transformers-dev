@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-BoldItalic.woff2') format('woff2'),
+        url('RocheSans-BoldItalic.woff') format('woff'),
+        url('RocheSans-BoldItalic.ttf') format('truetype'),
+        url('RocheSans-BoldItalic.svg#RocheSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-Bold.woff2') format('woff2'),
+        url('RocheSans-Bold.woff') format('woff'),
+        url('RocheSans-Bold.ttf') format('truetype'),
+        url('RocheSans-Bold.svg#RocheSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Serif';
+    src: url('RocheSerif-Light.woff2') format('woff2'),
+        url('RocheSerif-Light.woff') format('woff'),
+        url('RocheSerif-Light.ttf') format('truetype'),
+        url('RocheSerif-Light.svg#RocheSerif-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Serif';
+    src: url('RocheSerif-Italic.woff2') format('woff2'),
+        url('RocheSerif-Italic.woff') format('woff'),
+        url('RocheSerif-Italic.ttf') format('truetype'),
+        url('RocheSerif-Italic.svg#RocheSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Serif';
+    src: url('RocheSerif-Regular.woff2') format('woff2'),
+        url('RocheSerif-Regular.woff') format('woff'),
+        url('RocheSerif-Regular.ttf') format('truetype'),
+        url('RocheSerif-Regular.svg#RocheSerif-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Serif';
+    src: url('RocheSerif-LightItalic.woff2') format('woff2'),
+        url('RocheSerif-LightItalic.woff') format('woff'),
+        url('RocheSerif-LightItalic.ttf') format('truetype'),
+        url('RocheSerif-LightItalic.svg#RocheSerif-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-Medium.woff2') format('woff2'),
+        url('RocheSans-Medium.woff') format('woff'),
+        url('RocheSans-Medium.ttf') format('truetype'),
+        url('RocheSans-Medium.svg#RocheSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Serif';
+    src: url('RocheSerif-BoldItalic.woff2') format('woff2'),
+        url('RocheSerif-BoldItalic.woff') format('woff'),
+        url('RocheSerif-BoldItalic.ttf') format('truetype'),
+        url('RocheSerif-BoldItalic.svg#RocheSerif-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Serif';
+    src: url('RocheSerif-Bold.woff2') format('woff2'),
+        url('RocheSerif-Bold.woff') format('woff'),
+        url('RocheSerif-Bold.ttf') format('truetype'),
+        url('RocheSerif-Bold.svg#RocheSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-Regular.woff2') format('woff2'),
+        url('RocheSans-Regular.woff') format('woff'),
+        url('RocheSans-Regular.ttf') format('truetype'),
+        url('RocheSans-Regular.svg#RocheSans-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-Light.woff2') format('woff2'),
+        url('RocheSans-Light.woff') format('woff'),
+        url('RocheSans-Light.ttf') format('truetype'),
+        url('RocheSans-Light.svg#RocheSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans Condensed';
+    src: url('RocheSansCondensed-Regular.woff2') format('woff2'),
+        url('RocheSansCondensed-Regular.woff') format('woff'),
+        url('RocheSansCondensed-Regular.ttf') format('truetype'),
+        url('RocheSansCondensed-Regular.svg#RocheSansCondensed-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-LightItalic.woff2') format('woff2'),
+        url('RocheSans-LightItalic.woff') format('woff'),
+        url('RocheSans-LightItalic.ttf') format('truetype'),
+        url('RocheSans-LightItalic.svg#RocheSans-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-MediumItalic.woff2') format('woff2'),
+        url('RocheSans-MediumItalic.woff') format('woff'),
+        url('RocheSans-MediumItalic.ttf') format('truetype'),
+        url('RocheSans-MediumItalic.svg#RocheSans-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans';
+    src: url('RocheSans-Italic.woff2') format('woff2'),
+        url('RocheSans-Italic.woff') format('woff'),
+        url('RocheSans-Italic.ttf') format('truetype'),
+        url('RocheSans-Italic.svg#RocheSans-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans Condensed';
+    src: url('RocheSansCondensed-Light.woff2') format('woff2'),
+        url('RocheSansCondensed-Light.woff') format('woff'),
+        url('RocheSansCondensed-Light.ttf') format('truetype'),
+        url('RocheSansCondensed-Light.svg#RocheSansCondensed-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans Condensed';
+    src: url('RocheSansCondensed-Italic.woff2') format('woff2'),
+        url('RocheSansCondensed-Italic.woff') format('woff'),
+        url('RocheSansCondensed-Italic.ttf') format('truetype'),
+        url('RocheSansCondensed-Italic.svg#RocheSansCondensed-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roche Sans Condensed';
+    src: url('RocheSansCondensed-LightItalic.woff2') format('woff2'),
+        url('RocheSansCondensed-LightItalic.woff') format('woff'),
+        url('RocheSansCondensed-LightItalic.ttf') format('truetype'),
+        url('RocheSansCondensed-LightItalic.svg#RocheSansCondensed-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+

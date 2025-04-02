@@ -1,0 +1,57 @@
+@import "Colors.scss";
+
+
+.Upcoming-events {
+  background-color: #FBFBFA;
+  padding: 90px 0 60px 0;
+.title {
+  margin-bottom: 25px;
+}
+.upeventrow {
+  margin-bottom: 30px;
+}
+  img {
+    width: 100%;
+  }
+  .text {
+    border-bottom: solid 2px #EAE8E5;
+    margin-bottom: 30px;
+    h4 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    p {
+      color: $black; padding-bottom: 12px;
+    }
+    span {
+      font-weight: 400; color: #706B69; display: flex; align-items: center; margin-bottom: 8px;
+      &::before {
+        content: '';
+        background-color: $blue; display: block;
+        width: 8px; height: 8px; border-radius: 8px; margin-right: 8px; margin-left: 8px;
+      }
+    }
+a {
+  color: $black;
+  &:hover {
+    color: $blue;
+  }
+}
+  }
+}
+
+@media (max-width: 767px) {   
+  .Upcoming-events {
+    padding-top: 28px; padding-bottom: 0;
+  }
+  .Upcoming-events .title {
+    font-weight: 300;
+  }
+  .Upcoming-events .text {
+    padding-top: 24px;
+  }
+}
+
+
+

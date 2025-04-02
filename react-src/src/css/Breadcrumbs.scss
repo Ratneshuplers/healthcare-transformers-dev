@@ -1,0 +1,48 @@
+@import "Colors.scss";
+.breadcrumbs-full-line {
+  .breadcrumbs {
+    padding-top: 74px;
+  }
+}
+.breadcrumbs {
+  .ul {
+   margin-bottom: 30px;
+   a {
+    font-size: 16px;
+    line-height: 21px;
+    color: #544F4F;
+    font-weight: 400;
+    padding-left: 0!important; margin-right: 14px;
+    padding-right: 21px;   
+    background-repeat: no-repeat;
+    background-position: right 7px;
+      background-image: url("data:image/svg+xml,%3Csvg width='5' height='9' viewBox='0 0 5 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.95 4.00667L0.943333 0L0 0.942667L3.06667 4.00933L0 7.07133L0.942666 8.014L4.95 4.00667Z' fill='%23C2BAB5'/%3E%3C/svg%3E");
+      &:hover {
+        color: $blue;
+      }
+      &:active {
+        color: #5C80DE;
+      }
+      &:focus {
+        background-color: #F1F5FC;
+        box-shadow: 0px 0px 0px 2px $blue; border-radius: 2px;
+      }
+   }
+   span {
+    font-weight: 400; color: #544F4F;  font-size: 16px;
+    line-height: 21px;
+   }
+  }
+}
+
+@media (max-width: 767px) { 
+  .breadcrumbs .ul {
+    margin-bottom: 10px;
+  }
+  .breadcrumbs .ul a, .breadcrumbs .ul span {
+    font-size: 14px;
+  }
+  .breadcrumbs-full-line .breadcrumbs {
+    padding-top: 37px;
+  }
+}

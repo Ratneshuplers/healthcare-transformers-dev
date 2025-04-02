@@ -1,0 +1,33 @@
+@import "Colors.scss";
+
+.author-list-banner {
+  padding: 77px 0 64px 0;
+  background: linear-gradient(140.87deg, #FAD6C7 -68.64%, #FFFFFF 52.89%);
+  border-bottom: solid 1px #DBD6D1;
+ .text {
+ 
+ h1 {
+  margin-bottom: 24px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+p {
+  font-size: 26px;
+  color: #544F4F;
+  line-height: 160%;
+}
+}}
+
+@media (max-width: 767px) { 
+  .author-list-banner {
+    padding-top: 40px; padding-bottom: 23px;
+  }
+  .author-list-banner .text h1 {
+    margin-bottom: 0px;
+  }
+  .author-list-wrap.padding-1 {
+    padding-top: 30px;
+  }
+  
+}

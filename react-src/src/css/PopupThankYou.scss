@@ -1,0 +1,20 @@
+@import "Colors.scss";
+
+.popupbody {
+  padding: 32px 30px 40px 30px;
+  max-width: 395px;
+  margin: auto;
+  color:  $black; font-weight: 400;
+  h2 {
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  .btn-main {
+    display: block;
+    text-align: center;
+  }
+}
+

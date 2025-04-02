@@ -1,0 +1,21 @@
+@import "Colors.scss";
+
+.authorpublications {
+  .More-articles-of {
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin-bottom: 54px;
+  }
+}
+@media (max-width: 767px) {  
+  .authorpublications .More-articles-of 
+  {
+    display: none;
+  }
+  .authorpublications h3 {
+    margin-bottom: 36px;
+    font-weight: 300;
+    color: #21201F;
+  }
+}

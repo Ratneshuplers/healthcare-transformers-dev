@@ -1,0 +1,56 @@
+@import "Colors.scss";
+
+.article-list-filter {
+  max-width: 100%;
+  margin-bottom: 34px;
+  height: 62px;
+  ul {
+   margin-bottom: 0;
+    display: flex;
+   
+    li {
+      margin-right: 16px;
+      list-style: none;
+      white-space: nowrap;
+      a {
+        padding: 8px 24px;
+        color: #544F4F;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 160%;
+        border: solid 1px #DBD6D1;
+        display: block;
+        &:hover {
+          color: $dark;
+          background: $grey;
+          border: solid 1px $grey-dark;
+        }
+        &:focus {
+          color: $dark;
+          background: $grey;
+          border: solid 1px $grey-dark;
+        }
+      }
+      &.active {
+        a {
+          color: $white;
+          background-color: $blue-dark;
+          border: solid 1px $blue-dark;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1440px) { 
+  .article-list-filter {
+   
+    margin-bottom: 20px;}
+  .article-list-filter ul  {
+    padding-bottom: 0px; margin-bottom: 0px;
+  }
+  .article-list-filter ul li a {
+    font-size: 18px;
+    padding: 4.5px 16px; line-height: 160%;
+  }
+}

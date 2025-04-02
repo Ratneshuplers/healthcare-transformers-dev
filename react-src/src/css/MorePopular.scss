@@ -1,0 +1,111 @@
+@import "Colors.scss";
+
+.single-article-list {
+  background-color: $white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  min-height: 100%; position: relative;
+  .text {
+    padding: 24px 32px 36px 32px;
+    border-top: solid 2px #BC36F0;
+    font-weight: 400;
+    .articletitlecategory {
+      color: #706B69;
+      font-size: 16px;
+      line-height: 21px;
+      white-space: nowrap;
+      text-overflow: ellipsis; 
+      overflow: hidden; display: block;
+    }
+    p{
+      margin: 0; left: 0; right: 0; margin-left: 32px; margin-right: 32px;
+      font-size: 16px; 
+      line-height: 21px;
+      color: $black;
+      position: absolute; bottom: 36px;
+     
+      span {
+        display: block;
+        color: #706B69;
+      }
+    }
+    h5 {
+      margin: 0;
+      padding: 12px 0 80px 0; min-height: 296px;
+      a {
+        color: $black;
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+  .list-thumb {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    span {
+      position: absolute;
+      right: 12px; top: 16px;
+      z-index: 2;
+      border-radius: 20px; padding: 0px 11px;
+      background-color: #EAE8E5;
+      color: #1E1E1E; font-weight: 400;
+      font-size: 14px; line-height: 20px;
+      text-transform: uppercase; letter-spacing: 1px;
+    }
+  }
+}
+.mobile-arrow {
+  display: none;
+}
+@media (max-width: 1199px) { 
+  .single-article-list .text {
+    padding: 20px;
+  }
+  .single-article-list .text .articletitlecategory {
+    font-size: 20px;
+  }
+  .single-article-list .text p {
+    bottom: 20px;
+  }
+  .single-article-list .text h5 {
+    font-size: 28px; line-height: 120%; padding-top: 4px; padding-bottom: 80px;
+  }
+  .single-article-list .text p {
+    margin-left: 20px; margin-right: 20px;
+  }
+
+}
+@media (max-width: 767px) { 
+  .single-article-list { 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+    background-color: transparent;
+  }
+  .single-article-list .text {
+    padding: 18px 0 32px 0px;
+  }
+  .single-article-list .text .articletitlecategory {
+    margin-bottom: 4px;
+  }
+  .single-article-list .text p {
+    font-size: 20px; position: static; margin-left: 0px; margin-right: 0px;
+    span {
+      padding-top: 0px;
+    }
+  }
+  .single-article-list .text h5 {
+    display: flex; padding-bottom: 10px;
+  }
+  .single-article-list .text h5 {
+    font-size: 30px; line-height: 135%; 
+  }
+  .mobile-arrow {
+    display: block;
+    margin-left: 24px; min-width: 24px; margin-top: 0px;
+  }
+}
+
+

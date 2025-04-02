@@ -1,0 +1,75 @@
+@import "Colors.scss";
+
+.homebanner {
+  padding: 72px 0 72px 0;
+}
+.homebanner .text {
+  margin-bottom: 60px;
+}
+.homebanner .text h1 {
+  margin-bottom: 24px;
+}
+.homebanner .text p {
+  font-size: 26px;
+  color: #544F4F;
+  line-height: 160%;
+}
+
+.scroll-down {
+  max-width: 645px;
+  position: relative;
+}
+.scroll-down a {
+  display: flex;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  color: #000000;
+  padding-right: 53px;
+}
+.scroll-down a:hover {
+  color: #0B41CD;
+}
+.scroll-down a::after {
+  position: absolute;
+  right: 0;
+  content: "";
+  width: 43px;
+  height: 43px;
+  background-image: url(../images/down.svg);
+}
+@media (max-width: 1199px) { 
+  .homebanner .text p {
+    font-size: 22px;
+  }
+  .scroll-down a {
+    font-size: 28px; line-height: 140%;
+  }
+
+  .homebanner {
+    padding: 60px 0 40px 0;
+  }
+}
+@media (max-width: 767px) { 
+  .homebanner .text p {
+    font-size: 20px;
+  }
+  .homebanner .text {
+    margin-bottom: 40px;
+  }
+  .scroll-down a {
+    line-height: 130%;
+    padding-right: 0;
+    padding-top: 85px;
+    font-weight: 300;
+    &::after {
+      left: 50%;
+      top: 0;
+      right: inherit;
+      transform: translateX(-50%);
+    }
+  }
+  .homebanner {
+    padding: 32px 0 32px 0;
+  }
+}

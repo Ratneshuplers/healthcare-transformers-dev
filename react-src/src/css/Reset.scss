@@ -1,0 +1,840 @@
+@import "Colors.scss";
+@import "font/StyleSheet.scss";
+
+body {
+  padding: 0;
+  color: $black;
+  font-family: 'Roche Sans';
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+  letter-spacing: 0;
+  overflow-x: hidden !important;
+  background-color: $white;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+a,
+button {
+  transition: all 0.4s ease 0s;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+
+  &::after,
+  &::before {
+    transition: all 0.4s ease 0s;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+h1 {
+
+  font-size: 61px;
+  line-height: 115%;
+  font-weight: 300;
+
+  &.display-big {
+    font-size: 128px;
+  }
+
+  &.display-small {
+    font-size: 88px;
+  }
+}
+
+h2 {
+
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 125%;
+
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 135%;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.is-layout-flex.wp-block-buttons{
+  margin-bottom: 20px;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1280px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+  .row {
+    margin-right: -16px;
+    margin-left: -16px;
+
+    &.no-gutters {
+      margin-left: 0px;
+      margin-right: 0px;
+
+      [class*="col-"] {
+        padding: 0 0px;
+      }
+    }
+
+    [class*="col-"] {
+      padding: 0 16px;
+    }
+
+  }
+}
+.mktoForm a {
+  text-decoration: underline;
+}
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton
+{
+  
+  font-size: 18px!important;
+  line-height: 130%!important;
+  font-weight: 400!important;
+  color: $white!important;
+  background-color: $blue!important;
+  padding: 16px 24px!important; border: none!important;
+  background-image: none!important;
+
+  &:hover {
+    background-color: $blue-dark!important;
+    color: $white!important;
+    box-shadow: 0px 12px 24px rgba(33, 33, 33, 0.24);
+  }
+
+  &:active {
+    background-color: #5C80DE;
+    box-shadow: 0px 0px 0px rgba(33, 33, 33, 0.24);
+  }
+}
+.btn-main, button.mktoButton {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  color: $white;
+  background-color: $blue;
+  padding: 16px 24px; border: none; display: inline-block;
+
+  &:hover {
+    background-color: $blue-dark;
+    color: $white;
+    box-shadow: 0px 12px 24px rgba(33, 33, 33, 0.24);
+  }
+
+  &:active {
+    background-color: #5C80DE;
+    box-shadow: 0px 0px 0px rgba(33, 33, 33, 0.24);
+  }
+}
+
+.alt-color {
+  background-color: #FFF7F5;
+}
+.padding-1 {
+  padding: 96px 0;
+}
+.padding-2 {
+  padding: 72px 0;
+}
+.padding-3 {
+  padding: 36px 0 96px 0;
+  &.padding-3a {
+    padding-top: 96px;
+  }
+}
+.fillblue {
+  fill: $blue;
+}
+.h2-title-mb {
+  margin-bottom: 56px;
+}
+.aware-gradient-top-left {
+  background: linear-gradient(140.87deg, #FAD6C7 -68.64%, #FFFFFF 52.89%);
+}
+.blue-gradient-top-left {
+  background: linear-gradient(125.75deg, #BDE3FF -40.48%, #FFFFFF 43.74%);
+}
+.blue-gradient-bottom-right {
+  background: linear-gradient(121.43deg, #FFFFFF 61.88%, #BDE3FF 175.69%);
+}
+.gr-1 {
+  background: linear-gradient(111.65deg, #FFF7F5 45.69%, #FFE8DE 84.58%);
+}
+.btn-outline {
+  color: $blue;
+  border: solid 1px $blue;
+  padding: 16px 24px;
+  font-size: 18px; font-weight: 400; line-height: 130%;
+  &:hover {
+    color: $blue-dark;
+    border: solid 1px $blue-dark;
+  }
+  &:active {
+    color: $blue;
+    border: solid 1px $blue;
+  }
+}
+
+.form-control {
+  border-radius: 0;
+  border: solid 1px #C2BAB5;
+  font-size: 18px;
+  font-weight: 300;
+  height: calc(1.5em + .75rem + 9px);
+  border-bottom-color: #706B69;
+}
+.social-share {
+  margin-bottom: 60px;
+  ul {
+    list-style: none!important;
+    display: flex;
+    li {
+      margin-right: 16px;
+      list-style: none!important;
+      padding-left: 0!important;
+      &::before {
+        display: none!important;
+      }
+      a {
+        display: block;        
+      }
+    }
+  }
+}
+.social-share.mb-42{
+  margin-bottom: 42px;
+}
+span.tag  {
+  font-size: 14px; display: inline-block; line-height: 20px; padding: 0 10px; font-weight: 400; letter-spacing: 0.01em; background-color: #EAE8E5;
+}
+
+.btn-collapse {
+  display: flex;
+  width: 100%; border: 0;
+  background-color: $white;
+  font-size: 20px; font-weight: 400;  padding: 16px 0; line-height: 30px;
+  border-bottom: solid 1px #fff; position: relative;
+  color: #022366;
+
+  &::after {
+    content: '';
+    width: 24px; height: 24px;
+    position: absolute; right: 0;
+    background-position: center center; background-repeat: no-repeat;
+    background-image: url(../images/minus.svg);
+  }
+  &.collapsed {
+    border-bottom: solid 1px #C2BAB5; color: #544F4F;
+    &:hover {
+      color: #022366;
+      border-bottom: solid 1px #022366;
+    }
+    &::after {  background-image: url(../images/plus.svg);}
+  }
+}
+.accordion {
+  border-top: solid 1px #C2BAB5;
+  .text {
+    border-bottom: solid 1px #C2BAB5;
+    padding-bottom: 24px;
+  }
+}
+
+.custom-control {
+  padding-left: 28px;
+}
+.custom-control-label {
+  font-size: 18px; font-weight: 300; line-height: 30px;
+  cursor: pointer;
+  text-transform: lowercase;
+  &:first-letter{
+    text-transform: uppercase;
+  }
+  &::before, &::after {
+    width: 20px; height: 20px; border-radius: 0!important; top: 5px; left: -28px;
+    border: 1px solid #C2BAB5;
+  }
+  &:hover{
+    &::before, &::after {
+      border: 1px solid $blue;
+    }
+  }
+}
+.mb-104 {
+  margin-bottom: 104px;
+}
+.pt-52 {
+  padding-top: 52px;
+}
+.mh-inharite {
+  min-height: inherit!important;
+  margin-bottom: 30px!important;
+}
+.More-articles-of {
+  display: block;
+  margin-bottom: 30px;
+  color: #544F4F; font-weight: 400;
+}
+.pagrination {
+  display: flex;
+  align-items: center;
+  list-style: none; margin-bottom: 0;
+  li {
+    padding-right: 16px;
+    span {
+      color: #544F4F; font-weight: 400;
+    }
+
+    a {
+      color: #544F4F;
+      font-weight: 400;
+      display: block;
+      padding: 4px 0px;
+      width: 40px; text-align: center;
+      svg {
+        fill: #544F4F;
+      }
+      &:hover {
+        color: $blue;
+        svg {
+          fill: $blue;
+        }
+      }
+      &.disabled { cursor: no-drop;
+        svg {
+          fill: #C2BAB5;
+        }
+      }
+    }
+    &.active {
+      a {
+        background-color: #022366;
+        color: $white;
+      }
+    }
+  }
+}
+.big-text {
+  font-size: 26px; line-height: 160%;
+  big { font-weight: 500;
+    font-size: 26px; line-height: 160%; color: $blue; display: block;
+  }
+  p {
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.text {
+  &.w-100 {
+    max-width: 100%!important;
+  }
+}
+.desktop-hide {
+  display: none;
+}
+
+/** Marketo form css start **/
+
+.mktoForm .mktoError .mktoErrorArrowWrap {
+  display: none !important;
+}
+.mktoForm .mktoError{
+  left: 1px !important;
+}
+.mktoForm .mktoError .mktoErrorMsg{
+  background: none !important;
+  border: none !important;
+  color: red !important;
+  box-shadow: none !important;
+  padding-left: 0 !important;
+  text-shadow: none !important;
+  font-family: 'Roche Sans' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #FF1F26 !important;
+  margin-top: 0 !important;
+}
+.mktoForm .mktoTextField.mktoInvalid, .mktoForm .mktoTextField.mktoInvalid:focus,
+.mktoForm .mktoEmailField.mktoInvalid, .mktoForm .mktoEmailField.mktoInvalid:focus{
+  outline: 0;
+  border: 1px solid #FF1F26;
+}
+.mktoForm .mktoCheckboxList label::before, .mktoForm .mktoCheckboxList label::after {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 0 !important;
+  top: 5px;
+  left: -28px;
+  border: 1px solid #C2BAB5;
+}
+.mktoForm .mktoCheckboxList label, .mktoForm .mktoHtmlText {
+  margin-left: 39px !important;
+  line-height: 160% !important;
+}
+.mktoForm .mktoCheckboxList label::before {
+  position: absolute;
+  top: 6px;
+  left: -1px;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  pointer-events: none;
+  content: "";
+  background-color: #fff;
+  border: 1px solid #adb5bd;
+}
+.mktoForm .mktoCheckboxList label::after {
+  position: absolute;
+  top: 6px;
+  left: -1px;
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background: 50%/50% 50% no-repeat;
+}
+.mktoForm .mktoCheckboxList label:hover{
+  cursor: pointer;
+}
+.mktoForm .mktoCheckboxList label:hover::before, .mktoForm .mktoCheckboxList label:hover::after{
+  border: 1px solid #0B41CD;
+}
+.mktoForm .mktoCheckboxList.mktoInvalid label::before, .mktoForm .mktoCheckboxList.mktoInvalid label::after{
+  border: 1px solid #FF1F26;
+}
+.mktoForm .mktoCheckboxList input[type=checkbox]:checked~label::before {
+  color: #fff;
+  border-color: #007bff;
+  background-color: #007bff;
+}
+.mktoForm .mktoCheckboxList input[type=checkbox]:checked~label::after {
+  background-image: url("../images/checkbox-arrow.svg");;
+  background-color: #ffffff;
+  border-color: #0B41CD;
+}
+.mktoForm .mktoCheckboxList > input[type=checkbox]{
+  z-index: -1;
+  width: 1rem;
+  height: 1.25rem;
+  opacity: 0;
+}
+.mktoForm .mktoFormRow .mktoField,
+.mktoForm .mktoFormRow .mktoCheckboxList,
+.mktoForm .mktoFormRow .mktoHtmlText,{
+  margin-bottom: 24px !important;
+}
+.mktoForm .mktoError {
+  position: inherit !important;
+}
+.mktoForm .mktoFieldWrap:has(.mktoError:not([style*="display: none"])) .mktoField { margin-bottom: 0px !important; }
+.mktoForm .mktoFieldWrap:has(.mktoError:not([style*="display: none"])) .mktoField.mktoInvalid { margin-bottom: 0px !important; }
+.mktoForm .mktoFieldWrap:has(.mktoError:not([style*="display: none"])) .mktoField.mktoValid { margin-bottom: 27px !important; }
+
+/** Marketo form css End **/
+.mktoForm .mktoRadioList, .mktoForm .mktoCheckboxList {
+  padding: 0.3em 0 !important;
+}
+.mktoForm .mktoFormCol {
+  float: none!important;
+}
+.mktoForm .mktoFormRow .mktoFormCol{
+  margin-bottom: 0px!important;
+}
+.mktoForm .mktoGutter {
+  height: 1px!important; overflow: hidden; width: 100%!important;;
+}
+.mktoForm {
+  width: 100%!important; max-width: 393px!important;
+}
+.ht-training-dialog .mktoForm {
+  max-width: 100%!important;
+}
+.mktoForm .mktoRequiredField label.mktoLabel {
+  float: none!important; width: 100%!important; font-size: 16px; font-weight: 400!important;
+}
+.mktoForm .mktoFieldWrap, .mktoForm .mktoAsterix {
+  float: none!important;
+}
+.mktoOffset {
+  display: none!important;
+}
+.mktoForm .mktoRadioList, .mktoForm .mktoCheckboxList, .mktoForm div, .mktoForm span, .mktoForm label, .mktoForm p {
+  max-width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 160%;
+}
+.mktoCheckboxList  {
+  width: 100%!important;
+}
+.mktoButtonWrap  {
+  margin-left: 0!important;
+}
+.mktoForm .mktoAsterix {
+  display: none !important;
+  padding-left: 0!important; padding-right: 5px!important;
+}
+.mktoTextField, .mktoEmailField, select.mktoField   {
+  width: 100%!important;
+  border-radius: 0;
+//font-size: 18px;
+font-weight: 300;
+height: calc(1.5em + .75rem + 9px);
+border: 1px solid #C2BAB5;
+  //border-bottom-color: rgb(194, 186, 181);
+  //border-bottom-color: #706b69;
+background-color: transparent!important; padding-left: 16px!important;
+}
+.mktoForm .mktoFormRow .mktoTextField, .mktoForm .mktoFormRow .mktoEmailField, .mktoForm .mktoFormRow select.mktoField{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: #706B69;
+}
+.modal-dialog {
+  max-width: 395px;
+}
+.ht-training-dialog.modal-dialog {
+  max-width: 50%;
+}
+.ht-training-dialog.modal-dialog .mktoForm .mktoFormCol .mktoFormRow{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 15px;
+}
+.ht-training-dialog.modal-dialog .mktoForm .mktoFormRow .mktoFieldDescriptor.mktoFormCol {
+  flex: 1;
+}
+.ht-training-dialog.modal-dialog .mktoForm .mktoFormRow:last-child .mktoFieldDescriptor.mktoFormCol {
+  max-width: 49%;
+}
+.ht-training-dialog.modal-dialog .mktoForm .mktoFormRow .mktoClear{
+  display: none;
+}
+.ht-training-dialog.modal-dialog .cta-modal-wrapper .mktoButtonRow {
+  width: auto;
+}
+.modal-content {
+  border-radius: 0; border: none; border-top: solid 3px #BC36F0;
+}
+.modal-title {
+  font-size: 20px; font-weight: 400; line-height: 150%; max-width: 255px; margin-bottom: 16px;
+}
+.modal-body.cta-modal-wrapper {
+  padding: 40px 32px;
+}
+.cta-thank-you a {
+  display: block; text-align: center;
+}
+#LblConsent_given_to_contact_for_Mktg_Info__c {
+  display: none!important;
+}
+.mktoForm .mktoRadioList > label, .mktoForm .mktoCheckboxList > label {
+  margin-top: 0px!important;
+}
+.mktoForm .mktoRadioList > input, .mktoForm .mktoCheckboxList > input {
+  margin-top: 3px!important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+  background-image: url("../images/checkbox-arrow.svg");
+  background-color: $white;
+  border-color: $blue;
+}
+.custom-control-input:focus~.custom-control-label::before {
+  box-shadow: none;
+}
+.custom-control-input:disabled~.custom-control-label::before, .custom-control-input[disabled]~.custom-control-label::before,
+.custom-control-input:disabled~.custom-control-label::after, .custom-control-input[disabled]~.custom-control-label::after {
+  background-color: #EAE8E5;
+  border: 1px solid #EAE8E5;
+}
+.close.popup-close{
+  color: #21201F;
+  opacity: 1;
+  margin-top: -25px;
+}
+@media (min-width: 1672px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1480px;
+  }
+
+}
+@media (max-width: 1671px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1248px;
+  }
+}
+@media (max-width: 1440px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    padding-left: 64px; padding-right: 64px;
+    max-width: 1376px;
+    .row {
+      margin-right: -12px;
+      margin-left: -12px;
+
+      &.no-gutters {
+        margin-left: 0px;
+        margin-right: 0px;
+
+        [class*="col-"] {
+          padding: 0 0px;
+        }
+      }
+
+      [class*="col-"] {
+        padding: 0 12px;
+      }
+
+    }
+
+  }
+}
+@media (max-width: 1199px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1024px;
+    padding-left: 64px; padding-right: 64px;
+  }
+  body {
+    font-size: 18px; line-height: 160%;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 112%;
+    &.display-big {
+      font-size: 88px;
+    }
+    &.display-small {
+      font-size: 64px;
+    }
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 130%;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 140%;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 150%;
+  }
+  h6 {
+    font-size: 18x;
+    line-height: 160%;
+  }
+  .big-text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 768px;
+    padding-left: 32px; padding-right: 32px;
+  }
+  .ht-training-dialog.modal-dialog {
+    max-width: 60%;
+  }
+  .ht-training-dialog.modal-dialog .mktoForm .mktoFormCol .mktoFormRow{
+    display: block;
+  }
+  .ht-training-dialog.modal-dialog .mktoForm .mktoFormRow:last-child .mktoFieldDescriptor.mktoFormCol {
+    max-width: 100%;
+  }
+}
+.cta-thank-you {
+  h3 {
+    font-size: 48px;
+  }
+  p {
+    font-weight: 400;
+  }
+}
+.thanks-butttons {
+  padding-top: 20px;
+} 
+@media (max-width: 767px) {
+  .ht-training-dialog.modal-dialog {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .ht-training-dialog.modal-dialog .mktoForm select.mktoField {
+    height: calc(1.5em + 0.75rem + 9px);
+  }
+  .thanks-butttons {
+    padding-top: 5px; text-align: center;
+  }
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 768px;
+    padding-left: 20px; padding-right: 20px;
+  }
+  .h2-title-mb {
+    margin-bottom: 34px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 120%;
+    &.display-big {
+      font-size: 64px;
+    }
+    &.display-small {
+      font-size: 40px;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 120%;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 120%;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 130%;
+  }
+  h5 {
+    line-height: 132%;
+  }
+  h6 {
+    line-height: 148%;
+  }
+  .big-text {
+    font-size: 20px;
+  }
+  .padding-1 {
+    padding: 48px 0;
+  }
+  .padding-2 {
+    padding: 32px 0;
+  }
+  .pt-52 {
+    padding-top: 8px;
+  }
+  .btn-main { padding: 8px 16px; font-size: 16px; display: inline-block!important;}
+  .btn-outline {
+    display: block;
+    text-align: center; width: 100%;
+  }
+  .pagrination li {
+    padding-right: 8px; 
+  }
+  .mb-104 {
+    margin-bottom: 38px;
+  }
+  .padding-3.padding-3a {
+    padding-top: 38px;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .desktop-hide {
+    display: block;
+  }
+  .modal-body.cta-modal-wrapper {
+    padding-left: 20px; padding-right: 20px;
+  }
+  .cta-thank-you  {
+    font-size: 20px; font-weight: 400; line-height: 150%;
+    h3 {
+      font-size: 30px;
+    }
+    .btn-main {
+      padding: 18px 16px; font-size: 18px;
+    }
+  }
+  .mktoForm input[type="text"], .mktoForm input[type="email"] {
+    height: 48px!important;
+  }
+  .btn-collapse {
+    font-size: 18px; line-height: 148%; padding: 12px 0;
+  }
+  .More-articles-of {
+    font-size: 24px;
+  }
+}
+
+.cta-modal-wrapper .mktoButtonRow {
+  width: 100%;
+  * {
+    display: block; width: 100%;
+  }
+}
+.gr-2x {
+  background: linear-gradient(144.84deg, #FFFFFF 54.87%, #FAC9B5 227.96%);
+}
+
+.mktoForm .mktoAsterix {
+  color: #544F4F!important;
+}
+/*.mktoLabel {
+  font-size: 16px!important;  color: #544F4F!important; font-family: "Roche Sans"!important; margin-bottom: 6px!important;
+  display: flex;
+flex-direction: row-reverse;
+justify-content: start;
+}*/
+/*.mktoLabel, .mktoGutter{
+  display: none;
+}*/
+#Lblcpscustomstring4 {
+  display: none!important;
+}

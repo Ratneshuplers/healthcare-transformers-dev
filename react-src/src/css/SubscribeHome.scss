@@ -1,0 +1,26 @@
+@import "Colors.scss";
+
+.homesubscribe-text {
+  max-width: 501px;
+  h2 {
+    margin-bottom: 74px;
+    max-width: 292px;
+  }
+  ul {
+    li {
+      list-style: none;
+      border-bottom: solid 1px #EAE8E5;
+      margin-bottom: 39px;
+      padding-bottom: 19px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .homesubscribe-text h2 {
+    margin-bottom: 34px;
+  }
+  .homesubscribe-text ul li {
+    padding-bottom: 24px; margin-bottom: 24px;
+  }
+ }

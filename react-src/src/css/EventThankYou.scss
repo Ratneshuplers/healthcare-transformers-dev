@@ -1,0 +1,81 @@
+@import "Colors.scss";
+
+.features-img {
+  font-size: 0;
+
+  img {
+    width: 100%;
+  }
+}
+.twobnt {
+  display: flex; margin-bottom: 52px; padding-top: 32px;
+  a {
+    margin-right: 48px;
+    display: inline-block;
+  }
+}
+.twocol-vent {
+  background-color: #F5F5F2; padding: 60px 0;
+  img {
+    max-width: 100%;
+  }
+  .social-share {
+    margin-bottom: 30px;
+    ul {
+      margin-bottom: 0;
+    }
+  }
+  p {
+    margin-bottom: 24px;
+  }
+  .text {
+    color: #312F2E;
+    h2 {
+      margin-bottom: 16px!important;
+    }
+  }
+}
+.event-main {
+  .breadcrumbs {
+    margin-bottom: 50px;
+  }
+
+  .text {
+    max-width: 821px;
+
+    .post-meta {
+      .big-text {
+        color: #544F4F;
+        margin-bottom: 82px;
+      }
+    }
+    h2, h1 {
+      max-width: inherit;
+      margin-bottom: 36px;
+    }
+
+  }
+}
+@media (max-width: 767px) { 
+  .spacer-64 {
+    height: 45px;
+  }
+  .twocol-vent {
+    padding: 40px 0;
+    img {
+      margin-bottom: 16px;
+    }
+  }
+  .twobnt {
+    display: block;
+    text-align: center; margin-bottom: 30px;
+    a {
+      margin: 0 20px 16px 20px; clear: both;
+    }
+  }
+}
+
+
+
+
+

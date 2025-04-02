@@ -1,0 +1,46 @@
+@import "Colors.scss";
+
+.Aboutus-main {
+  padding: 88px 0 72px 0;
+  .innertext {
+    background: linear-gradient(144.84deg, #FFF7F5 54.87%, #FAC9B5 227.96%);
+    padding: 48px 24px;
+    margin-top: 48px;
+    div {
+      max-width: 606px;
+      margin: auto;
+      color: $black;
+      h4 {
+        font-weight: 400;
+      }
+    }
+  }
+  .text {
+    max-width: 821px;
+    font-size: 20px;  line-height: 160%;
+    color: #544F4F;
+    padding-bottom: 60px;
+    h2 {
+      margin-bottom: 40px;
+    }
+    a {
+      text-decoration: underline;
+    }
+    ol {
+      padding-left: 20px;
+      li {
+        padding-left: 10px;
+      }
+    }
+  }
+}
+@media (max-width: 767px) {  
+  .Aboutus-main {
+    padding: 40px 0;
+  }
+  .Aboutus-main .innertext {
+    margin-left: -20px;
+    width: 100vw;
+  }
+}
+

@@ -1,0 +1,38 @@
+@import "Colors.scss";
+
+.inlinebanner {
+  background: linear-gradient(114.74deg, #FFE8DE -83.47%, #FFF7F5 64.92%);
+  padding: 62px 0;
+  margin: 48px auto;
+  .inlinebanner-text {
+    max-width: 656px;
+    margin: 0 auto; 
+    padding: 0 24px;
+    h2 {
+      margin-bottom: 16px;
+    }
+    p {
+      margin-bottom: 32px;
+    }
+  }
+}
+@media (max-width: 1199px) { 
+  .inner-banner .text p {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767px) {
+.inner-banner {
+padding-top: 45px; padding-bottom: 48px;
+}
+.inner-banner .text p {
+  font-size: 20px;
+}
+}
+
+
+
+
+
+
+

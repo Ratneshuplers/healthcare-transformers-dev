@@ -1,0 +1,50 @@
+@import "Colors.scss";
+
+.twocoltext {
+  img {
+    max-width: 608px;
+    width: 100%;
+  }
+  .pagrination {
+    margin-top: 96px;
+  }
+  h4 {
+    margin-bottom: 40px;
+  }
+  .text {
+    padding-top: 24px;
+    h2 {
+      margin-bottom: 16px;
+    }
+    p {
+      min-height: 160px;
+    }
+    span {
+      display: block;
+      margin-bottom: 30px; 
+    }
+    
+    
+  }
+}
+@media (max-width: 767px) {
+  .twocoltext h4 {
+    font-size: 30px;
+    color: #21201F;
+    font-weight: 300;
+    margin-bottom: 16px;
+  }
+  .twocoltext img {
+    margin-bottom: 16px;
+  }
+.twocoltext .text {
+  padding-top: 16px;
+}
+.twocoltext .text p {
+  min-height: inherit;
+  margin-bottom: 24px;
+}
+.twocoltext .pagrination {
+  margin-top: 34px;
+}
+}

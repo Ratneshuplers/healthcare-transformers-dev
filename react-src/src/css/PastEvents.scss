@@ -1,0 +1,55 @@
+@import "Colors.scss";
+
+
+.part-events {
+  
+  padding: 90px 0 60px 0;
+.title {
+  margin-bottom: 25px;
+}
+  img {
+    width: 100%;
+  }
+  .text {
+    padding-right: 16px;
+    padding-top: 24px;
+    margin-bottom: 30px;
+    border-top: solid 1px #C2BAB5;
+    h4 {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 4px;
+    }
+    small {
+      color: $black; padding-bottom: 12px; color: #706B69;
+    }
+
+a {
+  color: $black;
+  &:hover {
+    color: $blue;
+  }
+}
+  }
+}
+.past-thumb {
+  position: relative;
+  span {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../images/play.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 68px; height: 68px;
+  }
+}
+@media (max-width: 767px) {    
+  .part-events {
+    padding-top: 45px;
+  }
+}
+
+
+
+

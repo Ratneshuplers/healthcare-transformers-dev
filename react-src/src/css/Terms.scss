@@ -1,0 +1,26 @@
+@import "Colors.scss";
+
+
+.content-main {
+  padding: 98px 0;
+  .terms-text-block {
+    margin-bottom: 42px;
+  }
+  .text {
+    color: #544F4F;
+    h6 {
+      font-size: 26px; font-weight: 300; margin-bottom: 12px;
+    }
+    p {
+      margin-bottom: 12px;
+    }
+  }
+}
+@media (max-width: 767px) {   
+  .content-main .text h6 {
+    font-size: 20px;
+  }
+  .content-main {
+    padding: 72px 0 30px 0;
+  }
+}

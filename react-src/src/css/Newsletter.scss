@@ -1,0 +1,20 @@
+@import "Colors.scss";
+
+.newsletter-main {
+  padding: 88px 0 72px 0;
+  .text {
+    max-width: 821px;
+    font-size: 26px;  line-height: 160%;
+    color: #544F4F;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 767px) { 
+  .newsletter-main { 
+    padding-top: 28px;
+    .text { 
+      font-size: 20px; padding-bottom: 35px;
+    }
+  }
+}

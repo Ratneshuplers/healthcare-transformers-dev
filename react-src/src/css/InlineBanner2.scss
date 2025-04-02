@@ -1,0 +1,90 @@
+@import "Colors.scss";
+
+.article-main .text .inlinebanner2 .mktoForm a{
+  border-bottom: none;
+}
+.inlinebanner2 {
+  background-color: #FFF7F5;
+  margin: 48px auto;
+  padding-bottom: 24px;
+}
+.formwrap {
+  max-width: 656px; margin: 0 auto; padding: 24px;
+
+  .mktoForm {
+    max-width: inherit!important;
+  }
+}
+.innerbanner-top {
+  background-color: #FFF7F5;
+}
+.innerbanner-heading {
+  max-width: 656px; margin: 0 auto; padding: 48px 24px 0px 24px;
+  h6 {
+    border-bottom: solid 1px $black; margin-bottom: 0!important;
+    font-size: 18px; font-weight: 300; padding-bottom: 4px; line-height: 160%;
+  }
+  h5 {
+    color: $blue;
+    margin-bottom: 5px;
+    small {
+      display: block; font-size: 18px;
+      color: $black; font-weight: 300;
+    }
+  }
+  h4{
+    color: $black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 16px;
+    small {
+      display: block; font-size: 18px;
+      color: $black; font-weight: 300;
+    }
+  }
+  
+}
+.centerimg {
+  margin-left: auto; margin-right: auto; display: block;
+  width: 86px; border-radius: 86px; margin-top: -43px;
+}
+.roundImage{
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .inlinebanner2 {
+    margin: 88px auto 48px;
+  }
+  .round-image-div {
+    margin-top: -90px;
+    margin-bottom: 10px;
+  }
+  .roundImage{
+    max-width: 80px;
+  }
+  .inlinebanner2 {
+    width: 100vw; margin-left: -20px;
+  }
+  .centerimg {
+    margin-top: 32px; margin-bottom: 29px;
+  }
+  .innerbanner-heading h5 {
+    line-height: 120%;
+    font-size: 24px;
+    small {
+      font-size: 20px; font-weight: 400;
+      color: #9D948E; padding-top: 5px; line-height: 150%;
+    }
+  }
+}
+
+
+
+
+
+
+

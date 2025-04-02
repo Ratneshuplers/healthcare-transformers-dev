@@ -1,0 +1,209 @@
+@import "Colors.scss";
+
+/*footer CSS  start*/
+footer {
+  background: linear-gradient(120.59deg, #FFFFFF 24.71%, #FFF7F5 79.38%, #BDE3FF 121.01%);
+  padding: 80px 0 66px 0;
+  border-top: 1px solid #BC36F0;
+}
+
+.footer-logo {
+  text-align: left;
+}
+
+.footer-menu {
+  h6 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #544F4F;
+    margin-bottom: 16px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style: none;
+      font-size: 20px;
+      line-height: 150%;
+      margin-bottom: 16px;
+      font-weight: 400;
+
+      a {
+        color: #544F4F;
+
+        &:hover {
+
+          color: #0B41CD;
+
+        }
+      }
+    }
+  }
+}
+
+.footer-contact-menu {
+  margin-bottom: 30px;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+
+  a {
+    color: #544F4F;
+
+    &:hover {
+      color: $blue;
+    }
+  }
+}
+
+.footer-subscribe {
+  margin-bottom: 34px;
+  max-width: 288px;
+  border-bottom: solid 1px #706B69;
+  padding-bottom: 16px;
+}
+
+.footer-subscribe a {
+  font-size: 20px;
+  font-weight: 400;
+  color: #544F4F;
+  position: relative;
+  display: block;
+
+  &:hover {
+    color: #0B41CD;
+  }
+}
+
+
+
+.footer-subscribe a::after {
+  content: "";
+  background-image: url(../images/next.svg);
+  width: 30px;
+  height: 30px;
+  background-position: center center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-size: 24px 24px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  line-height: 24px;
+
+  a {
+    margin-left: 8px;
+    margin-right: 8px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:hover img {
+      opacity: 0.7;
+    }
+  }
+}
+
+.footer-bottom {
+  padding-top: 56px;
+  border-top: 1px solid #DBD6D1;
+  margin-top: 60px;
+}
+
+.footer-main-menu {
+  margin-bottom: 80px;
+
+  ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      margin-right: 40px;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 22px;
+
+      a {
+        color: #544F4F;
+        text-decoration: none;
+
+        &:hover {
+          color: #0B41CD;
+        }
+      }
+    }
+  }
+}
+
+.copyright-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #544F4F;
+}
+
+.footer-content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #544F4F;
+}
+.svgfillsocial {
+  fill: #544F4F;
+}
+.socail-svg:hover .svgfillsocial {
+  fill: #0B41CD;
+}
+
+@media (max-width: 767px) {  
+  footer {
+    padding: 46px 0;
+    background: linear-gradient(136.47deg, #FFFFFF 35.41%, #FFF7F5 58%, #BDE3FF 128.14%);
+  }
+  .footer-logo {
+    text-align: left;
+    margin-bottom: 50px;
+  }
+  .footer-subscribe {
+    max-width: inherit; width: 100%; margin-bottom: 23px;
+  }
+  .footer-contact-menu, .footer-menu ul li {
+    font-size: 18px; font-weight: 300;
+  }
+  .footer-menu h6 {
+    font-size: 14px;
+  }
+  .footer-menu ul {
+    margin-bottom: 30px;
+  }
+  .footer-bottom {
+    margin-top: 14px; padding-top: 40px;
+  }
+  .social-media {
+    margin-bottom: 32px;
+    a {
+      padding: 8px;
+    }
+  }
+  .footer-main-menu ul {
+    flex-direction: column;
+    li {
+      margin-bottom: 16px;
+    }
+  }
+  .footer-main-menu {
+    margin-bottom: 16px;
+  }
+  .copyright-text {
+    margin-bottom: 16px; font-size: 14px;
+  }
+}
